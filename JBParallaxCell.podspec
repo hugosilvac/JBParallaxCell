@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Javier Berlana" => "https://github.com/jberlana" }
   s.source       = { :git => "git@github.com:jberlana/JBParallaxCell.git", :tag => s.version.to_s }
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
   s.source_files = 'JBParallaxCell.{h,m}'
   s.requires_arc = true
 end
